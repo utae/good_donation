@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border_primary_1dp"
+        android:layout_margin="10dp"
+        android:descendantFocusability="blocksDescendants">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10sp"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:id="@+id/name_text_view"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:id="@+id/follow_text_view"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10sp"
+                android:text="명이 후원 중"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:id="@+id/image_view"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@color/colorPrimary">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:background="@drawable/border_white_1dp"
+                android:layout_gravity="center_vertical"
+                android:textOff="내 기부처에 추가"
+                android:textOn="내 기부처에서 삭제"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:id="@+id/follow_button"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                android:id="@+id/achievement_text_view"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</layout>

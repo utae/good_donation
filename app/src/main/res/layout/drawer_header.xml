@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingTop="30dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_logo"/>
+        
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:background="@null"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:src="@drawable/ic_donation_class"/>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical"-->
+            <!--android:gravity="center">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Utae"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textColor="@color/black"/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="기부의 신"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textColor="@color/black"/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="전체순위"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textColor="@color/black"/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="지역순위"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textColor="@color/black"/>-->
+
+        <!--</LinearLayout>-->
+        
+    </FrameLayout>
+
+</layout>

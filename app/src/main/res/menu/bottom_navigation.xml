@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="홈" />
+
+    <item
+        android:id="@+id/navigation_scan"
+        android:icon="@drawable/ic_scan"
+        android:title="기부하기" />
+
+    <item
+        android:id="@+id/navigation_place"
+        android:icon="@drawable/ic_place"
+        android:title="기부매장" />
+
+    <item
+        android:id="@+id/navigation_charity"
+        android:icon="@drawable/ic_charity"
+        android:title="기부처" />
+
+</menu>

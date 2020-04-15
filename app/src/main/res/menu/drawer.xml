@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="내 기부 관리"
+        android:id="@+id/drawer_my_donation"
+        android:icon="@drawable/ic_my_donation"/>
+
+    <item
+        android:title="내 정보 수정"
+        android:id="@+id/drawer_my_profile"
+        android:icon="@drawable/ic_my_info"/>
+
+    <item
+        android:title="기부순위"
+        android:id="@+id/drawer_donation_rank"
+        android:icon="@drawable/ic_rank"/>
+
+    <item
+        android:title="문의하기"
+        android:id="@+id/drawer_inquiry"
+        android:icon="@drawable/ic_inquiry"/>
+
+    <item
+        android:title="설정"
+        android:id="@+id/drawer_setting"
+        android:icon="@drawable/ic_setting"/>
+
+</menu>

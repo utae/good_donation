@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:background="@color/white">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/temp_qr"
+                android:id="@+id/qr_btn"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="QR 코드"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+           <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/temp_nfc"
+                android:id="@+id/nfc_btn"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="NFC 태그"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="350dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_marginBottom="40dp"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:background="@drawable/border_primary_1dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:id="@+id/qr_btn">-->
+
+                <!--<FrameLayout-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:background="@drawable/circle_primary"-->
+                    <!--android:layout_gravity="center_horizontal">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="70dp"-->
+                        <!--android:layout_height="70dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:background="@null"-->
+                        <!--android:scaleType="fitXY"-->
+                        <!--android:src="@drawable/ic_qr_scan"/>-->
+
+                <!--</FrameLayout>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:text="QR코드로 기부하기"-->
+                    <!--android:textSize="25sp"-->
+                    <!--android:textColor="@color/colorPrimary"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="350dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:background="@drawable/border_primary_1dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:id="@+id/nfc_btn">-->
+
+                <!--<FrameLayout-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:background="@drawable/circle_primary"-->
+                    <!--android:layout_gravity="center_horizontal">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="70dp"-->
+                        <!--android:layout_height="70dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:background="@null"-->
+                        <!--android:scaleType="fitXY"-->
+                        <!--android:src="@drawable/ic_nfc_scan"/>-->
+
+                <!--</FrameLayout>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:text="NFC태그로 기부하기"-->
+                    <!--android:textSize="25sp"-->
+                    <!--android:textColor="@color/colorPrimary"/>-->
+
+
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</layout>
