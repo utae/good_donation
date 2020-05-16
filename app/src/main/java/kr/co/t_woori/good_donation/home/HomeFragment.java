@@ -1,26 +1,20 @@
 package kr.co.t_woori.good_donation.home;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 import kr.co.t_woori.good_donation.R;
-import kr.co.t_woori.good_donation.charity.Charity;
 import kr.co.t_woori.good_donation.communication.APICreator;
 import kr.co.t_woori.good_donation.communication.ServerCommunicator;
 import kr.co.t_woori.good_donation.databinding.HomeFragmentBinding;
-import kr.co.t_woori.good_donation.donation.DonationAPIService;
 import kr.co.t_woori.good_donation.map.Place;
 import kr.co.t_woori.good_donation.map.PlaceDetailDialog;
 import kr.co.t_woori.good_donation.utilities.RefreshFragment;
-import kr.co.t_woori.good_donation.utilities.Utilities;
 
 /**
  * Created by rladn on 2017-08-01.

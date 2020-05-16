@@ -1,12 +1,12 @@
 package kr.co.t_woori.good_donation.home;
 
 import android.content.Context;
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentManager;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,12 +18,8 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 
 import java.util.HashMap;
-import java.util.List;
 
 import kr.co.t_woori.good_donation.R;
-import kr.co.t_woori.good_donation.charity.Charity;
-import kr.co.t_woori.good_donation.charity.CharityDetailDialog;
-import kr.co.t_woori.good_donation.charity.ProjectDetailDialog;
 import kr.co.t_woori.good_donation.databinding.ImagePageBinding;
 import kr.co.t_woori.good_donation.utilities.Utilities;
 import kr.co.t_woori.good_donation.utilities.ViewPagerIndicator;

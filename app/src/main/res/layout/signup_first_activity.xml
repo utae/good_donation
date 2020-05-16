@@ -73,7 +73,7 @@
 
         </LinearLayout>
 
-        <android.support.v7.widget.AppCompatSpinner
+        <androidx.appcompat.widget.AppCompatSpinner
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="50dp"
@@ -88,7 +88,7 @@
             android:entries="@array/nation"
             android:id="@+id/nation_spn"/>
 
-        <android.support.v7.widget.AppCompatSpinner
+        <androidx.appcompat.widget.AppCompatSpinner
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"

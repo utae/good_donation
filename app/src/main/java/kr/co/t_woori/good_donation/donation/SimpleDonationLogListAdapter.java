@@ -1,7 +1,7 @@
 package kr.co.t_woori.good_donation.donation;
 
 import android.content.Context;
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +11,6 @@ import java.util.ArrayList;
 
 import kr.co.t_woori.good_donation.R;
 import kr.co.t_woori.good_donation.databinding.DonationLogRowBinding;
-import kr.co.t_woori.good_donation.utilities.Utilities;
 
 /**
  * Created by rladn on 2017-08-17.

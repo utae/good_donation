@@ -1,9 +1,9 @@
 package kr.co.t_woori.good_donation.setting;
 
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
@@ -13,7 +13,6 @@ import kr.co.t_woori.good_donation.R;
 import kr.co.t_woori.good_donation.communication.APICreator;
 import kr.co.t_woori.good_donation.communication.ServerCommunicator;
 import kr.co.t_woori.good_donation.databinding.MyProfileActivityBinding;
-import kr.co.t_woori.good_donation.signup.SignupSecondActivity;
 import kr.co.t_woori.good_donation.utilities.Utilities;
 
 /**

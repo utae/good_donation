@@ -1,10 +1,10 @@
 package kr.co.t_woori.good_donation.donation;
 
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.DialogFragment;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.DialogFragment;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,7 +24,6 @@ import kr.co.t_woori.good_donation.charity.CharityAPIService;
 import kr.co.t_woori.good_donation.communication.APICreator;
 import kr.co.t_woori.good_donation.communication.ServerCommunicator;
 import kr.co.t_woori.good_donation.databinding.ChooseCharityDialogBinding;
-import kr.co.t_woori.good_donation.utilities.Utilities;
 
 /**
  * Created by rladn on 2017-08-10.

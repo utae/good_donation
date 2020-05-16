@@ -3,11 +3,10 @@ package kr.co.t_woori.good_donation.login;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.HashMap;
-import java.util.List;
 
 import kr.co.t_woori.good_donation.communication.APICreator;
 import kr.co.t_woori.good_donation.communication.ServerCommunicator;

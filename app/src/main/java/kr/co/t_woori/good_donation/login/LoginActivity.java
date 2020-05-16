@@ -2,15 +2,14 @@ package kr.co.t_woori.good_donation.login;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
 import java.util.HashMap;
-import java.util.List;
 
 import kr.co.t_woori.good_donation.R;
 import kr.co.t_woori.good_donation.communication.APICreator;
@@ -18,7 +17,6 @@ import kr.co.t_woori.good_donation.communication.ServerCommunicator;
 import kr.co.t_woori.good_donation.databinding.LoginActivityBinding;
 import kr.co.t_woori.good_donation.main.MainActivity;
 import kr.co.t_woori.good_donation.notification.NearPlaceNotifyService;
-import kr.co.t_woori.good_donation.setting.SettingActivity;
 import kr.co.t_woori.good_donation.signup.SignupAgreementActivity;
 import kr.co.t_woori.good_donation.utilities.BackPressCloseSystem;
 import kr.co.t_woori.good_donation.utilities.ScrollView;

@@ -3,10 +3,10 @@ package kr.co.t_woori.good_donation.utilities;
 import android.app.Dialog;
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.StyleRes;
-import android.view.Gravity;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.StyleRes;
+
 import android.view.Window;
 
 import kr.co.t_woori.good_donation.R;

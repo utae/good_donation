@@ -1,6 +1,6 @@
 package kr.co.t_woori.good_donation.utilities;
 
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 /**
  * Created by rladn on 2017-08-01.

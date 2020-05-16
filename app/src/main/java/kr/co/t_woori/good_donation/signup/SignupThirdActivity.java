@@ -2,27 +2,23 @@ package kr.co.t_woori.good_donation.signup;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
 import java.util.HashMap;
-import java.util.List;
 
 import kr.co.t_woori.good_donation.R;
 import kr.co.t_woori.good_donation.communication.APICreator;
 import kr.co.t_woori.good_donation.communication.ServerCommunicator;
 import kr.co.t_woori.good_donation.databinding.SignupThirdActivityBinding;
-import kr.co.t_woori.good_donation.login.LoginActivity;
 import kr.co.t_woori.good_donation.main.MainActivity;
 import kr.co.t_woori.good_donation.utilities.ScrollView;
 import kr.co.t_woori.good_donation.utilities.UserInfo;
 import kr.co.t_woori.good_donation.utilities.Utilities;
-import okhttp3.internal.Util;
-import retrofit2.Response;
 
 /**
  * Created by utae on 2017-07-26.
