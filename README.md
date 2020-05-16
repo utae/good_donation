@@ -4,11 +4,11 @@
 
 # Screenshots
 
-<img src="./img/login.png"  width="300">
-<img src="./img/home.png"  width="300">
-<img src="./img/scan.png"  width="300">
-<img src="./img/qr_scan.png"  width="300">
-<img src="./img/nfc_scan.png"  width="300">
-<img src="./img/place.png"  width="300">
-<img src="./img/charity.png"  width="300">
-<img src="./img/charity_detail.png"  width="300">
+<img src="./img/login.jpg"  width="300">
+<img src="./img/home.jpg"  width="300">
+<img src="./img/scan.jpg"  width="300">
+<img src="./img/qr_scan.jpg"  width="300">
+<img src="./img/nfc_scan.jpg"  width="300">
+<img src="./img/place.jpg"  width="300">
+<img src="./img/charity.jpg"  width="300">
+<img src="./img/charity_detail.jpg"  width="300">
